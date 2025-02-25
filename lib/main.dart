@@ -16,24 +16,23 @@ class Lab06 extends StatelessWidget {
           title: Text("Advance UI"),
         ),
         drawer: Drawer(
+          child: ListView(
             children: [
               
               DrawerHeader(
                 decoration: BoxDecoration(
-                  color: Colors
-                      .blue, 
+                  color: Colors.blue, 
                 ),
                 child: Row(
-                  mainAxisAlignment:
-                      MainAxisAlignment.spaceBetween, 
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween, 
                   children: [
                     Icon(
-                      Icons.menu, // Left icon
+                      Icons.menu, 
                       size: 40,
                       color: Colors.white,
                     ),
                     Icon(
-                      Icons.notification_add, // Right icon
+                      Icons.notification_add, 
                       size: 40,
                       color: Colors.white,
                     ),
