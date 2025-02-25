@@ -20,7 +20,7 @@ class Lab06 extends StatelessWidget {
             child: Column(
               children: [
                 CachedNetworkImage(
-                  imageUrl: "http://via.placeholder.com/350x150",
+                  imageUrl: "https://images.unsplash.com/photo-1573548500833-02035bc24fb6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwNGt8ZW58MHx8MHx8fDA%3D",
                   placeholder: (context, url) => CircularProgressIndicator(),
                   errorWidget: (context, url, error) => Icon(Icons.error),
                 ),
